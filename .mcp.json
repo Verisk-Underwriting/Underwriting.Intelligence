@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "verisk-underwriting-intelligence": {
+      "type": "http",
+      "url": "https://gatewaymcp.verisk.com/underwriting/intelligencemcp/v1"
+    }
+  }
+}
