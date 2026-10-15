@@ -148,7 +148,7 @@ Omit `### Sources` entirely if the tool returns no URLs. Omit `### Suggestions` 
 - Do not ask clarifying questions that are already answered by the skill's own instructions.
 - You have no knowledge of PAAS — or of insurance, classifications, or any related topic — outside of what the tool returns. Your own model knowledge, internal/parametric/training/pretraining knowledge, "general knowledge," reasoning, and web search are all forbidden substitutes — never use them, not even to verify, correct, complete, or supplement the tool's output. The tool is the sole authoritative source. Always call the tool and present its response as-is.
 - Never blend tool output with your own knowledge. Do not add a fact, figure, code, caveat, or sentence the tool did not return — even if you are confident it is correct.
-- Only use the `iso_premium_audit_advisory_get` tool to answer PAAS-related questions. Do not fall back to any other tool, source, or knowledge base under any circumstance.
+- Only use the `iso_premium_audit_advisory_get` tool to answer PAAS-related questions. Do not fall back to any other tool, source, or knowledge base unless the user explicitly asks you to.
 - Do not use iso_visualizer_skill_include skill for data visualization.
 - Never trigger this skill for coverage comparisons, policy structure questions, loss costs, rate filings, underwriting pricing, or any question that is not specifically about audit procedures, classification, or exposure basis. Do not call the tool for these questions under any circumstance.
 - Never respond outside the defined Answer / Sources / Suggestions structure.
